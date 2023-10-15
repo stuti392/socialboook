@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fb.css">
+    <title>Facebook</title>
+</head>
+
+<body>
+
+    <nav class="container">
+        <div class="nav-left ">
+            <a href="./fb.html">
+                <img src="./img/images/logo.png" class="logo">
+            </a>
+            <i class="fa-regular fa-bell"></i>
+            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-solid fa-house"></i>
+        </div>
+
+
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="./img/images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+
+            <div class="profile-icon online " onclick="settingMenuToggle()">
+                <img src="./img/images/profile-pic.png">
+            </div>
+        </div>
+
+        <!-------------Setting-menu----------->
+
+        <div class="setting-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="./img/images/profile-pic.png" alt="">
+                    <div>
+                        <p>Jhon Nicholson</p>
+                        <a href="./profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="./img/images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img src="./img/images/setting.png" class="setting-icon">
+                    <a href="#">Setting & Privacy <img src="./img/images/arrow.png" width="8px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="./img/images/help.png" class="setting-icon">
+                    <a href="#">Help & Support <img src="./img/images/arrow.png" width="8px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="./img/images/display.png" class="setting-icon">
+                    <a href="#">Display & Accessibility <img src="./img/images/arrow.png" width="8px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="./img/images/logout.png" class="setting-icon">
+                    <a href="#">Logout <img src="./img/images/arrow.png" width="8px"> </a>
+                </div>
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+    </nav>
+
+    <!-- CONTENT -->
+
+    <div class="main container">
+
+        <!-------------left-sidebar----------->
+        <div class="left-sidebar">
+            <div class="imp-link">
+                <a href="#"><img src="./img/images/news.png" alt="">Latest News</a>
+                <a href="#"><img src="./img/images/friends.png" alt="">Freiends</a>
+                <a href="#"><img src="./img/images/group.png" alt="">Group</a>
+                <a href="#"><img src="./img/images/marketplace.png" alt="">Marketplace</a>
+                <a href="#"><img src="./img/images/watch.png" alt="">Watch</a>
+                <a href="#">See More</a>
+            </div>
+
+            <div class="shortcut-link">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="./img/images/shortcut-1.png">Webs Developers</a>
+                <a href="#"><img src="./img/images/shortcut-2.png">Webs Design Course</a>
+                <a href="#"><img src="./img/images/shortcut-3.png">Full Stack Development</a>
+                <a href="#"><img src="./img/images/shortcut-4.png">Webs Experts</a>
+            </div>
+        </div>
+
+        <!-------------mid-sidebar----------->
+        <div class="mid-sidebar">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="./img/images/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+
+                <div class="story story2">
+                    <img src="./img/images/member-1.png" alt="">
+                    <p>Alison</p>
+                </div>
+                <div class="story story3">
+                    <img src="./img/images/member-2.png" alt="">
+                    <p>Jackson</p>
+                </div>
+                <div class="story story4">
+                    <img src="./img/images/member-3.png" alt="">
+                    <p>Samona</p>
+                </div>
+                <div class="story story5">
+                    <img src="./img/images/member-4.png" alt="">
+                    <p>Jhon Doe</p>
+                </div>
+            </div>
+
+
+            <!-- whatonyourmind -->
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="./img/images/profile-pic.png" alt="">
+                    <div>
+                        <p>Jhon Nicholson</p>
+                        <small>Public &nbsp;<i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+
+
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="Whats's on your mind, Jhon?"></textarea>
+                    <div class="add-postlinks">
+                        <a href="#"><img src="./img/images/live-video.png" alt="">Live Video</a>
+                        <a href="#"><img src="./img/images/photo.png" alt="">Photo/Video</a>
+                        <a href="#"><img src="./img/images/feeling.png" alt="">Felling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- posts -->
+
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="./img/images/profile-pic.png" alt="">
+                    <div>
+                        <p>Jhon Nicholson</p>
+                        <span>August 25 2023, 13:22 Am</span>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+                </div>
+
+
+
+                <p class="post-text">Subscribe <span>@StutheCoder</span>Youtube Channel
+                    to watch more videos on Website Development & Application Development. <br> <a
+                        href="#">#StutheCoder</a> <a href="#">#YouTubeChannel</a></p>
+                <img src="./img/images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./img/images/like-blue.png" alt="">500</div>
+                        <div><img src="./img/images/comments.png" alt="">1000</div>
+                        <div><img src="./img/images/share.png" alt="">2000</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./img/images/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="./img/images/profile-pic.png" alt="">
+                    <div>
+                        <p>Jhon Nicholson</p>
+                        <span>August 25 2023, 13:22 Am</span>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+                </div>
+
+
+
+                <p class="post-text">Like and shre this video with friends, tag <span>@StutheCoder</span>
+                    facebook page on your post. Ask your doubts in the comments.<br> <a href="#">#StutheCoder</a> <a
+                        href="#">#YouTubeChannel</a></p>
+                <img src="./img/images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./img/images/like.png" alt="">700</div>
+                        <div><img src="./img/images/comments.png" alt="">1800</div>
+                        <div><img src="./img/images/share.png" alt="">2900</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./img/images/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="./img/images/profile-pic.png" alt="">
+                    <div>
+                        <p>Jhon Nicholson</p>
+                        <span>August 25 2023, 13:22 Am</span>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+                </div>
+
+
+
+                <p class="post-text">Like and shre this video with friends, tag <span>@StutheCoder</span>
+                    facebook page on your post. Ask your doubts in the comments.<br> <a href="#">#StutheCoder</a> <a
+                        href="#">#YouTubeChannel</a></p>
+                <img src="./img/images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./img/images/like.png" alt="">700</div>
+                        <div><img src="./img/images/comments.png" alt="">1800</div>
+                        <div><img src="./img/images/share.png" alt="">2900</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./img/images/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="./img/images/profile-pic.png" alt="">
+                    <div>
+                        <p>Jhon Nicholson</p>
+                        <span>August 25 2023, 13:22 Am</span>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+                </div>
+
+
+
+                <p class="post-text">Like and shre this video with friends, tag <span>@StutheCoder</span>
+                    facebook page on your post. Ask your doubts in the comments.<br> <a href="#">#StutheCoder</a> <a
+                        href="#">#YouTubeChannel</a></p>
+                <img src="./img/images/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./img/images/like.png" alt="">700</div>
+                        <div><img src="./img/images/comments.png" alt="">1800</div>
+                        <div><img src="./img/images/share.png" alt="">2900</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./img/images/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="./img/images/profile-pic.png" alt="">
+                    <div>
+                        <p>Jhon Nicholson</p>
+                        <span>August 25 2023, 13:22 Am</span>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+                </div>
+
+
+
+                <p class="post-text">Like and shre this video with friends, tag <span>@StutheCoder</span>
+                    facebook page on your post. Ask your doubts in the comments.<br> <a href="#">#StutheCoder</a> <a
+                        href="#">#YouTubeChannel</a></p>
+                <img src="./img/images/feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./img/images/like.png" alt="">700</div>
+                        <div><img src="./img/images/comments.png" alt="">1800</div>
+                        <div><img src="./img/images/share.png" alt="">2900</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./img/images/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button class="load-more">Load More</button>
+
+        </div>
+
+        <!-------------right-sidebar----------->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All </a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>&nbsp; Noida</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>14</h3>
+                    <span>April</span>
+                </div>
+                <div class="right-event">
+                    <h4>Web Development</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>&nbsp;Chandigarh</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <!----- advertisement-------->
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close </a>
+            </div>
+            <img src="img/images/advertisement.png" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="./img/images/member-1.png">
+                </div>
+                <p>Alison Milna</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./img/images/member-2.png">
+                </div>
+                <p>Jackson Aston</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="./img/images/member-3.png">
+                </div>
+                <p>Samona Rose</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+        <p>Copyright 2023 - Easy Tutorial YouTube Channel</p>
+    </div>
+
+    <script src="fb.js"></script>
+
+</body>
+
+</html>
